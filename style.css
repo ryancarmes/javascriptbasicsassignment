@@ -1,6 +1,9 @@
+* {
+    width: 960px;
+}
 /* elements */
 body {
-    background-color: white;
+    background-color: navy;
 }
 
 u {
@@ -23,10 +26,11 @@ h1 {
 #navigation {
     background-color: #069ba0;
     height: auto;
-    width: 180px;
+    width: 205px;
     padding: 5px;
-    margin: 10px 10px 0px 2.5px;
+    margin: 10px 15px 0px 2.5px;
     border-radius: 25px;
+    display: inline-block;
     float: left;
    }
 
@@ -35,12 +39,27 @@ h1 {
 color: #80dadd
 }
 
-/*removing bullets from specific list items within a ul by assigning a marker (i.e. <li.a></li.a>*/
-#navigation li.a {
+/*removing bullets from specific list items within a ul by assigning li items an individual class*/
+#navigation .a {
     list-style-type: none;
 }
 
 /* color bullets in list within div*/
 #navigation li {
     color: #c7dedf
+}
+
+#maincontent {
+    color: lightblue;
+    background-color: black;
+    width: 680px;
+    padding: 5px;
+    margin: 10px 15px 0px 2.5px;
+    border-radius: 25px;
+    display: inline-block;
+    float: right;
+}
+
+#about {
+    
 }
