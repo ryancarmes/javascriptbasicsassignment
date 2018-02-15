@@ -1,9 +1,8 @@
-* {
-    width: 960px;
-}
 /* elements */
 body {
     background-color: navy;
+    width: 970px;
+    padding: 10px;
 }
 
 u {
@@ -16,22 +15,22 @@ h1 {
 
 /* id */
 #webPageHeader {
-    background-color: #8b0808;
-    width: auto;
-    padding: 10px;
-    margin: 2.5px;
-    border-radius: 25px;
+    width: 970px;
+    height: 50px;
+    background-color: #cc323b;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
 }
 
 #navigation {
-    background-color: #069ba0;
-    height: auto;
-    width: 205px;
-    padding: 5px;
-    margin: 10px 15px 0px 2.5px;
-    border-radius: 25px;
+    width: 180px;
+    background-color: #2f7d8b;
+    border-radius: 10px;
+    padding: 10px;
     display: inline-block;
-    float: left;
+    vertical-align: top;
+
    }
 
 /* coloring embedded links within div*/
@@ -50,16 +49,22 @@ color: #80dadd
 }
 
 #maincontent {
-    color: lightblue;
-    background-color: black;
-    width: 680px;
-    padding: 5px;
-    margin: 10px 15px 0px 2.5px;
-    border-radius: 25px;
+    width: 720px;
     display: inline-block;
-    float: right;
+    margin-left: 15px;
+    background-color: #0f1822;
+    border-radius: 10px;
+    color: #c4d8ec;
+    padding: 15px;
 }
 
 #about {
-    
+    margin-top: 10px;
+    width: 100%;
+    background-color: #5e6672;
+    border-radius: 15px;
+}
+
+#about p{
+    padding: 15px 0 15px 15px;
 }
